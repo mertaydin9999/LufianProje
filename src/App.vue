@@ -1,32 +1,36 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/Lufian1">Lufian1</router-link>
+      <router-link to="/Lufian2">Lufian2</router-link>
+      <router-link to="/Lufian3">Lufian3</router-link>
+      <router-link to="/Lufian4">Lufian4</router-link>
+      <router-link to="/Lufian5">Lufian5</router-link>
+      <router-link to="/Lufian6">Lufian6</router-link>
+      <router-link to="/Lufian7">Lufian7</router-link>
+      <router-link to="/Lufian8">Lufian8</router-link> 
+      <router-link to="/Lufian9">Lufian9</router-link>
+      <router-link to="/Lufian10">Lufian10</router-link>
+      
+      
+      
+      
+      
+      
+
     </div>
-    <router-view />
+    <router-view/>
+
+
   </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
 
-#nav {
-  padding: 30px;
+export default {
+  
+  
+  
 }
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
